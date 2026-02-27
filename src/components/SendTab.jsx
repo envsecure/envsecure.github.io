@@ -44,7 +44,7 @@ export default function SendTab() {
     }
   };
 
-  const shareUrl = result ? `${window.location.origin}/decrypt/${result.id}` : "";
+  const shareUrl = result ? `${window.location.origin}/#/decrypt/${result.id}` : "";
 
   return (
     <div>
