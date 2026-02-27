@@ -62,7 +62,7 @@ export default function ReceiveForm({ lockedId = null }) {
           <label>Share link or ID</label>
           <input
             type="text"
-            placeholder="https://envshare.app/decrypt/abc123…  or just the 32-char ID"
+            placeholder="https://envsecure.github.io/decrypt/abc123…  or just the 32-char ID"
             value={id}
             onChange={(e) => setId(e.target.value)}
           />

@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="logo">
-        env<span>share</span>
+        env<span>secure</span>
       </div>
       <div className="header-sub">
         Encrypted .env sharing — zero-knowledge, self-destructing links
