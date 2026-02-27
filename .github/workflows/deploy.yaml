@@ -39,7 +39,7 @@ jobs:
         env:
           VITE_API_URL: ${{ vars.VITE_API_URL }}
 
-      - name: Upload Dist Artifact
+      - name: Upload Dist artifact
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
