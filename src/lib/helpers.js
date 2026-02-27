@@ -1,5 +1,5 @@
 export const API = import.meta.env.VITE_API_URL || "http://localhost:3001";
-export const GITHUB_URL = "https://github.com/yourusername/envshare";
+export const GITHUB_URL = "https://github.com/envsecure/envsecure.github.io";
 
 export function copyToClipboard(text) {
   return navigator.clipboard.writeText(text);
