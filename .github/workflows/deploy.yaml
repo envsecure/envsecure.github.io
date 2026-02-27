@@ -11,6 +11,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # ✅ Attach environment HERE
+    environment:
+      name: github-pages
+
     steps:
       - name: Get code
         uses: actions/checkout@v4
@@ -54,8 +59,6 @@ jobs:
       - name: Deploy to Github Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Show Deployed URL
         run: echo "Deployed at ${{ steps.deployment.outputs.page_url }}"
